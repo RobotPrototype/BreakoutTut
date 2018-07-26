@@ -99,7 +99,7 @@ function drawBricks() {
 		bricks[c][r].x = brickX;
 		bricks[c][r].y = brickY;
 		ctx.beginPath();
-		ctx.Rect(brickX, brickY, brickWidth, brickHeight);
+		ctx.rect(brickX, brickY, brickWidth, brickHeight);
 		ctx.fillStyle = "#950000";
 		ctx.fill();
 		ctx.closePath();
