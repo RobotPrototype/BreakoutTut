@@ -1,0 +1,35 @@
+{
+  name: pit-of-doom,
+  background: pit.png,
+  cameraWiddth: 32,
+  cameraHeight: 32,
+  regions:
+    [
+      {
+        style: rectangle,
+        x: 0,
+        y: 0,
+        w: 10,
+        h: 2,
+        tileset: "grass"
+      },
+      {
+        style: beveled-rectangle,
+        x: 22,
+        y: 32,
+        w: 2,
+        h: 2,
+        tileset: "lamp"
+      },
+      {
+        style: top-left-triangle,
+        x: 22,
+        y: 32,
+        w: 2,
+        h: 2,
+        tileset: "dirt"
+      },
+    ...
+  ]
+}
+
